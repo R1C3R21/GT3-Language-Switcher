@@ -1,0 +1,19 @@
+﻿<Window x:Class="GT3_Language_Switcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GT3_Language_Switcher"
+        mc:Ignorable="d"
+        Title="GT3 Language Switcher" Height="195" Width="410" ResizeMode="CanMinimize" WindowStyle="ThreeDBorderWindow">
+    <Canvas Margin="0,0,0,-6" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button x:Name="Button_Original_File" RenderTransformOrigin="0.519,0.676" Height="32" Canvas.Left="-148" Canvas.Top="-53" Width="94" Content="Select file" Click="Button_Original_File_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Convert" Content="Convert" Canvas.Left="-148" Canvas.Top="11" RenderTransformOrigin="0.127,0.129" IsEnabled="False" Height="37" Width="94" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Convert_Click"/>
+        <RadioButton x:Name="Button_English" Content="English" Canvas.Left="75" Canvas.Top="-48" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Checked="Button_English_Checked"/>
+        <RadioButton x:Name="Button_French" Content="French" Canvas.Left="75" Canvas.Top="-28" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Checked="Button_French_Checked"/>
+        <RadioButton x:Name="Button_Italian" Content="Italian" Canvas.Left="75" Canvas.Top="-8" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Checked="Button_Italian_Checked"/>
+        <RadioButton x:Name="Button_German" Content="German" Canvas.Left="75" Canvas.Top="12" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Checked="Button_German_Checked"/>
+        <RadioButton x:Name="Button_Spanish" Content="Spanish" Canvas.Left="75" Canvas.Top="32" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Checked="Button_Spanish_Checked"/>
+
+    </Canvas>
+</Window>

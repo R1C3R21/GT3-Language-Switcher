@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT3 Language Switcher", "GT3 Language Switcher\GT3 Language Switcher.csproj", "{60A3F746-7AC7-42E6-BFA7-7BF9893E0261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A3F746-7AC7-42E6-BFA7-7BF9893E0261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A3F746-7AC7-42E6-BFA7-7BF9893E0261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A3F746-7AC7-42E6-BFA7-7BF9893E0261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A3F746-7AC7-42E6-BFA7-7BF9893E0261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181C97CE-91D4-40FA-B44C-ABEF13391158}
+	EndGlobalSection
+EndGlobal
